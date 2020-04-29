@@ -16,14 +16,8 @@ public class Calculator {
 
     public void startCalculator() {
         Scanner scan = new Scanner(System.in);
-        Addition addition = new Addition();
-        Substraction substraction = new Substraction();
-        Multiplication multiplication = new Multiplication();
-        Power power = new Power();
-        Factorial factorial = new Factorial();
-        Fibonacci fibonacci = new Fibonacci();
 
-        double num1, num2, result, result2;
+        double num1, num2, result;
         int selection;
 
         System.out.print("Enter first number: ");
@@ -47,33 +41,29 @@ public class Calculator {
 
         switch (selection) {
             case 1:
-                result = addition.add(num1, num2);
+                result = new Addition().add(num1, num2);
                 System.out.println(result);
                 break;
             case 2:
-                result = substraction.sub(num1, num2);
+                result = new Substraction().sub(num1, num2);
                 System.out.println(result);
                 break;
             case 3:
-                result = multiplication.mult(num1, num2);
+                result = new Multiplication().mult(num1, num2);
                 System.out.println(result);
                 break;
             case 4:
-                result = power.power(num1, numInt2);
+                result = new Power().power(num1, numInt2);
                 System.out.println(result);
                 break;
             case 5:
-                result = factorial.calculateFactorial(numInt1);
+                result = new Factorial().calculateFactorial(numInt1);
                 System.out.println(result);
                 break;
-//                result2 = factorial.calculateFactorial(numInt2);
-//                System.out.println(result2);
             case 6:
-                result = fibonacci.fibonacci(numInt1);
+                result = new Fibonacci().fibonacci(numInt1);
                 System.out.println(result);
                 break;
-//                result2 = fibonacci.fibonacci(numInt2);
-//                System.out.println(result2);
             default:
                 break;
         }

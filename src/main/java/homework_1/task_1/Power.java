@@ -4,8 +4,7 @@ class Power {
 
     public double power(double a, int exponent) {
         double c = 1;
-        int i;
-        for (i = 0; i < exponent; i++) {
+        for (int i = 0; i < exponent; i++) {
             c *= a;
         }
         return c;
