@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Negative Test Suite">
+    
+    <test name="Calculator Simple Operations Negative">
+        <classes>
+            <class name="lesson.unit.tests.simple_operations.negative_tests.CalculatorAddTestNegative"></class>
+        </classes>
+    </test>
+    
+</suite>

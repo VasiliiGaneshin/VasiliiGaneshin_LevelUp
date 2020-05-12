@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite with all test">
+
+   <suite-files>
+       <suite-file path="CalculatorTrigonometrySuite.xml"></suite-file>
+       <suite-file path="CalculatorSimpleOperationsSuite.xml"></suite-file>
+       <suite-file path="CalculatorPowerSuite.xml"></suite-file>
+       <suite-file path="CalculatorSimpleOperationsNegativeSuiet"></suite-file>
+   </suite-files>
+
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Power">
+    
+    <test name="Calculator power">
+        <classes>
+            <class name="lesson.unit.tests.power.CalculatorPowTest"></class>
+            <class name="lesson.unit.tests.power.CalculatorSqrtTest"></class>
+        </classes>
+    </test>
+
+</suite>
