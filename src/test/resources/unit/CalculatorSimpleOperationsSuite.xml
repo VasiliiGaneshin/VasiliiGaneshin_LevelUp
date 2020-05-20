@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Simple Operations">
+
+    <test name="Calculator Simple Operations">
+        <classes>
+            <class name="lesson.unit.tests.simple_operations.CalculatorAddTest"></class>
+            <class name="lesson.unit.tests.simple_operations.CalculatorSubTest"></class>
+            <class name="lesson.unit.tests.simple_operations.CalculatorDivTest"></class>
+            <class name="lesson.unit.tests.simple_operations.CalculatorMultTest"></class>
+        </classes>
+    </test>
+
+</suite>

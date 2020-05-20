@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trigonometry">
+
+    <test name="Calculator Sin">
+        <classes>
+            <class name="lesson.unit.tests.trigonometry.CalculatorSinTest"></class>
+        </classes>
+    </test>
+
+    <test name="Calculator Cos">
+        <classes>
+            <class name="lesson.unit.tests.trigonometry.CalculatorCosTest"></class>
+        </classes>
+    </test>
+
+    <test name="Calculator Tg">
+        <classes>
+            <class name="lesson.unit.tests.trigonometry.CalculatorTgTest"></class>
+        </classes>
+    </test>
+
+    <test name="Calculator Ctg">
+        <classes>
+            <class name="lesson.unit.tests.trigonometry.CalculatorCtgTest"></class>
+        </classes>
+    </test>
+
+</suite>
